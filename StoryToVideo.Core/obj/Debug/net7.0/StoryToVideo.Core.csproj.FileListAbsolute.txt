@@ -1,0 +1,12 @@
+C:\YoutubeVideoBot\StoryToVideo.Core\bin\Debug\net7.0\StoryToVideo.Core.deps.json
+C:\YoutubeVideoBot\StoryToVideo.Core\bin\Debug\net7.0\StoryToVideo.Core.dll
+C:\YoutubeVideoBot\StoryToVideo.Core\bin\Debug\net7.0\StoryToVideo.Core.pdb
+C:\YoutubeVideoBot\StoryToVideo.Core\obj\Debug\net7.0\StoryToVideo.Core.csproj.AssemblyReference.cache
+C:\YoutubeVideoBot\StoryToVideo.Core\obj\Debug\net7.0\StoryToVideo.Core.GeneratedMSBuildEditorConfig.editorconfig
+C:\YoutubeVideoBot\StoryToVideo.Core\obj\Debug\net7.0\StoryToVideo.Core.AssemblyInfoInputs.cache
+C:\YoutubeVideoBot\StoryToVideo.Core\obj\Debug\net7.0\StoryToVideo.Core.AssemblyInfo.cs
+C:\YoutubeVideoBot\StoryToVideo.Core\obj\Debug\net7.0\StoryToVideo.Core.csproj.CoreCompileInputs.cache
+C:\YoutubeVideoBot\StoryToVideo.Core\obj\Debug\net7.0\StoryToVideo.Core.dll
+C:\YoutubeVideoBot\StoryToVideo.Core\obj\Debug\net7.0\refint\StoryToVideo.Core.dll
+C:\YoutubeVideoBot\StoryToVideo.Core\obj\Debug\net7.0\StoryToVideo.Core.pdb
+C:\YoutubeVideoBot\StoryToVideo.Core\obj\Debug\net7.0\ref\StoryToVideo.Core.dll

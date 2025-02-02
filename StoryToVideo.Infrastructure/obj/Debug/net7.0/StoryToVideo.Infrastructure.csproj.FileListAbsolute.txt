@@ -1,0 +1,17 @@
+C:\YoutubeVideoBot\StoryToVideo.Infrastructure\bin\Debug\net7.0\StoryToVideo.Infrastructure.deps.json
+C:\YoutubeVideoBot\StoryToVideo.Infrastructure\bin\Debug\net7.0\StoryToVideo.Infrastructure.runtimeconfig.json
+C:\YoutubeVideoBot\StoryToVideo.Infrastructure\bin\Debug\net7.0\StoryToVideo.Infrastructure.dll
+C:\YoutubeVideoBot\StoryToVideo.Infrastructure\bin\Debug\net7.0\StoryToVideo.Infrastructure.pdb
+C:\YoutubeVideoBot\StoryToVideo.Infrastructure\bin\Debug\net7.0\StoryToVideo.Core.dll
+C:\YoutubeVideoBot\StoryToVideo.Infrastructure\bin\Debug\net7.0\StoryToVideo.Core.pdb
+C:\YoutubeVideoBot\StoryToVideo.Infrastructure\obj\Debug\net7.0\StoryToVideo.Infrastructure.csproj.AssemblyReference.cache
+C:\YoutubeVideoBot\StoryToVideo.Infrastructure\obj\Debug\net7.0\StoryToVideo.Infrastructure.GeneratedMSBuildEditorConfig.editorconfig
+C:\YoutubeVideoBot\StoryToVideo.Infrastructure\obj\Debug\net7.0\StoryToVideo.Infrastructure.AssemblyInfoInputs.cache
+C:\YoutubeVideoBot\StoryToVideo.Infrastructure\obj\Debug\net7.0\StoryToVideo.Infrastructure.AssemblyInfo.cs
+C:\YoutubeVideoBot\StoryToVideo.Infrastructure\obj\Debug\net7.0\StoryToVideo.Infrastructure.csproj.CoreCompileInputs.cache
+C:\YoutubeVideoBot\StoryToVideo.Infrastructure\obj\Debug\net7.0\StoryToVideo.Infrastructure.csproj.CopyComplete
+C:\YoutubeVideoBot\StoryToVideo.Infrastructure\obj\Debug\net7.0\StoryToVideo.Infrastructure.dll
+C:\YoutubeVideoBot\StoryToVideo.Infrastructure\obj\Debug\net7.0\refint\StoryToVideo.Infrastructure.dll
+C:\YoutubeVideoBot\StoryToVideo.Infrastructure\obj\Debug\net7.0\StoryToVideo.Infrastructure.pdb
+C:\YoutubeVideoBot\StoryToVideo.Infrastructure\obj\Debug\net7.0\StoryToVideo.Infrastructure.genruntimeconfig.cache
+C:\YoutubeVideoBot\StoryToVideo.Infrastructure\obj\Debug\net7.0\ref\StoryToVideo.Infrastructure.dll

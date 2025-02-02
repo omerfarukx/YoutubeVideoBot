@@ -1,0 +1,117 @@
+{
+    "workflowAndDevelopmentEnvironment": {
+        "visualStudio": {
+            "platform": "Visual Studio Enterprise",
+            "tasks": [
+                "Running the MVC app",
+                "Debugging the MVC app",
+                "Testing the MVC app"
+            ],
+            "compiler": "Visual Studio should be used for compiling and launching the app."
+        },
+        "cursorAI": {
+            "tasks": [
+                "Code editing",
+                "AI suggestions",
+                "Refactoring"
+            ]
+        }
+    },
+    "cleanArchitectureGuidelines": {
+        "structure": {
+            "layers": [
+                "Core (Entities, Interfaces, DTOs, Use Cases)",
+                "Application (Services, Business Logic)",
+                "Infrastructure (Data Access, External API Integration)",
+                "Presentation (MVC - Controllers, Views)"
+            ],
+            "separationOfConcerns": "Each layer should have a clear responsibility, and dependencies should only point inward (i.e., Presentation depends on Application, which depends on Core)."
+        },
+        "coreLayer": {
+            "entities": "Define domain entities in the Core layer. These are the models that will be used across the app.",
+            "interfaces": "Define interfaces for services and repositories in the Core layer.",
+            "useCases": "Define use cases (application logic) in the Application layer."
+        },
+        "applicationLayer": {
+            "services": "Implement business logic in services within the Application layer, which depend on interfaces from Core.",
+            "DTOs": "Use Data Transfer Objects (DTOs) to pass data between layers, keeping entities isolated from external dependencies."
+        },
+        "infrastructureLayer": {
+            "dataAccess": "Implement repository pattern for data access (using Entity Framework Core or another ORM) in the Infrastructure layer.",
+            "externalAPIs": "Handle external API integrations in this layer, keeping external dependencies isolated from the rest of the app."
+        },
+        "presentationLayer": {
+            "mvc": "Controllers should handle HTTP requests, call services from the Application layer, and return appropriate views.",
+            "views": "Use Razor Views for UI components and Bootstrap for responsive design.",
+            "jQuery": "Use jQuery for DOM manipulation and AJAX calls where needed."
+        }
+    },
+    "mvcCodeStyleAndStructure": {
+        "codeStyle": {
+            "idiomaticCSharp": "Write idiomatic and efficient C# code following .NET MVC conventions.",
+            "controllerUsage": "Use Controllers to handle user requests and pass data to Views, calling services in the Application layer.",
+            "asyncOperations": "Prefer async/await for non-blocking operations in controllers."
+        },
+        "fileStructure": {
+            "viewComponents": "Use Razor Views for UI development and separate them into partial views where appropriate.",
+            "modelBinding": "Use ModelBinding to simplify the process of binding data from the client-side to the controller."
+        }
+    },
+    "namingConventions": {
+        "general": {
+            "pascalCase": "Component names, method names, and public members should follow PascalCase.",
+            "camelCase": "Private fields and local variables should use camelCase.",
+            "interfaceNames": "Interfaces should start with an 'I' (e.g., IUserService)."
+        }
+    },
+    "jqueryAndBootstrapGuidelines": {
+        "jquery": {
+            "domManipulation": "Use jQuery for DOM manipulation, event handling, and AJAX calls.",
+            "ajax": "Use jQuery’s $.ajax or $.get for calling APIs and handling responses asynchronously."
+        },
+        "bootstrap": {
+            "gridSystem": "Use Bootstrap’s grid system for responsive layouts.",
+            "components": "Use Bootstrap components such as modals, buttons, and alerts for UI elements.",
+            "customStyling": "Override Bootstrap’s default styles where necessary to fit the project’s design."
+        }
+    },
+    "errorHandlingAndValidation": {
+        "errorHandling": {
+            "mvcPages": "Ensure proper error handling in MVC pages and API calls using try-catch.",
+            "logging": "Log errors on the server side and provide proper feedback in the UI.",
+            "validation": "Implement client-side validation with jQuery and server-side validation using DataAnnotations or FluentValidation."
+        }
+    },
+    "mvcApiAndPerformanceOptimization": {
+        "asyncAPICalls": "Use async/await for API calls in controllers to ensure non-blocking operations.",
+        "ajaxOptimization": "Optimize AJAX calls by using caching strategies for frequently requested data.",
+        "minimizeDOMUpdates": "Minimize DOM manipulations and use efficient jQuery selectors to reduce overhead."
+    },
+    "cachingStrategies": {
+        "caching": {
+            "inMemoryCache": "Use in-memory caching (IMemoryCache) for lightweight server-side caching.",
+            "ajaxResponseCache": "Cache AJAX responses where applicable to reduce redundant API calls."
+        }
+    },
+    "apiDesignAndIntegration": {
+        "httpClient": "Use HttpClient for API communication or jQuery for AJAX calls.",
+        "apiErrorHandling": "Handle API errors gracefully with appropriate user feedback in the UI."
+    },
+    "testingAndDebugging": {
+        "unitTesting": "Use xUnit, NUnit, or MSTest for unit and integration testing of the MVC controllers and services.",
+        "mockingDependencies": "Use Moq or NSubstitute for mocking dependencies during tests.",
+        "debugging": {
+            "mvcUI": "Use browser developer tools and Visual Studio debugging tools for UI and server-side issues.",
+            "performanceProfiling": "Use Visual Studio’s diagnostic tools for performance profiling of the MVC app."
+        }
+    },
+    "securityAndAuthentication": {
+        "authentication": "Implement authentication and authorization using ASP.NET Identity or JWT tokens.",
+        "https": "Ensure all web communication is secured with HTTPS.",
+        "cors": "Implement proper CORS policies for external API access."
+    },
+    "apiDocumentationAndSwagger": {
+        "swaggerIntegration": "Use Swagger/OpenAPI for API documentation of your backend services.",
+        "xmlDocumentation": "Ensure XML documentation for models and API methods to enhance Swagger documentation."
+    }
+}
